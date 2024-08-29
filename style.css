@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+    background-image: url(/assets/Bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin {
+    background: linear-gradient(rgb(255, 255, 255, 0.1), rgb(255, 255, 255, 0));
+    width: 35vw;
+    height: 60vh;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 32px 0 rgb(174, 174, 174);
+    opacity: 1;
+    border: 3px solid white;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 15px 10px;
+}
+
+input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    width: 25vw;
+    outline: none;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label svg{
+    width: 1.6vw;
+}
+
+.btn button {
+    margin: 4px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login{
+margin-top: 30px;
+}
+
+.login button{
+    width: 25vw;
+    height: 25px;
+    background: linear-gradient(#1076ff, #0d4ee5);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.user img{
+    width: 200px;
+}
+
+.btn :first-child{
+    background-color: #1076ff;
+    color: white;
+}
